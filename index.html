@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f3e8d5">
+<script src="./theme.js"></script>
+<title>Feeling Wheel</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a id="about-link" href="./about.html" aria-label="About the Feeling Wheel" title="About the Feeling Wheel">i</a>
+<button id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" title="Switch to dark mode">
+<svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 13.2A8.7 8.7 0 0 1 10.8 3.5a8.7 8.7 0 1 0 9.7 9.7Z"/></svg>
+<svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg>
+</button>
+<main id="wheel" aria-label="Interactive feeling wheel"></main>
+<aside id="definition" aria-label="Feeling definition" hidden>
+<button id="definition-close" type="button" aria-label="Close definition" title="Close definition">×</button>
+<div role="status" aria-live="polite" aria-atomic="true">
+<h2 id="definition-word"></h2>
+<p id="definition-text"></p>
+</div>
+</aside>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

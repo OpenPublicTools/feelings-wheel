@@ -1,0 +1,493 @@
+{
+  "id": "willcox",
+  "title": "Willcox · 1982",
+  "revision": "1.0",
+  "subtitle": "The original six-family Feeling Wheel.",
+  "attribution": {
+    "author": "Gloria Willcox",
+    "sourceUrl": "https://journals.sagepub.com/doi/10.1177/036215378201200411",
+    "note": "Labels and pairings transcribed from the original 1982 Feeling Wheel. Historical wording is preserved; colors and interface are contemporary adaptations. Descriptions are contemporary editorial explanations, not Willcox’s original definitions."
+  },
+  "categories": [
+    {
+      "id": "mad",
+      "label": "Mad",
+      "color": "#CC7F70",
+      "children": [
+        {
+          "id": "mad-hurt",
+          "label": "Hurt",
+          "children": [
+            {
+              "id": "mad-jealous",
+              "label": "Jealous",
+              "description": "Feeling uneasy about losing attention, affection, or a valued connection."
+            }
+          ],
+          "description": "Feeling emotionally wounded by something that happened or was said."
+        },
+        {
+          "id": "mad-hostile",
+          "label": "Hostile",
+          "children": [
+            {
+              "id": "mad-selfish",
+              "label": "Selfish",
+              "description": "Feeling focused on your own wants with little consideration for others’ needs."
+            }
+          ],
+          "description": "Feeling unfriendly, defensive, or ready to oppose someone or something."
+        },
+        {
+          "id": "mad-angry",
+          "label": "Angry",
+          "children": [
+            {
+              "id": "mad-frustrated",
+              "label": "Frustrated",
+              "description": "Feeling upset because something important is being blocked or delayed."
+            }
+          ],
+          "description": "Feeling strong displeasure about an obstacle, injury, or perceived unfairness."
+        },
+        {
+          "id": "mad-rage",
+          "label": "Rage",
+          "children": [
+            {
+              "id": "mad-furious",
+              "label": "Furious",
+              "description": "Feeling extremely angry about something that has happened or seems wrong."
+            }
+          ],
+          "description": "Feeling anger so intense that it seems difficult to contain."
+        },
+        {
+          "id": "mad-hateful",
+          "label": "Hateful",
+          "children": [
+            {
+              "id": "mad-irritated",
+              "label": "Irritated",
+              "description": "Feeling bothered or unsettled by something that strains your patience."
+            }
+          ],
+          "description": "Feeling intense dislike or hostility toward someone or something."
+        },
+        {
+          "id": "mad-critical",
+          "label": "Critical",
+          "children": [
+            {
+              "id": "mad-skeptical",
+              "label": "Skeptical",
+              "description": "Feeling doubtful or unconvinced, with a wish for clearer reasons or evidence."
+            }
+          ],
+          "description": "Feeling inclined to notice faults or question what seems wrong."
+        }
+      ],
+      "description": "Feeling upset or angry about something that matters to you."
+    },
+    {
+      "id": "scared",
+      "label": "Scared",
+      "color": "#D59B6A",
+      "children": [
+        {
+          "id": "scared-rejected",
+          "label": "Rejected",
+          "children": [
+            {
+              "id": "scared-bewildered",
+              "label": "Bewildered",
+              "description": "Feeling lost or unsettled because something unexpected is difficult to understand."
+            }
+          ],
+          "description": "Feeling unwanted, excluded, or turned away by someone whose acceptance matters."
+        },
+        {
+          "id": "scared-confused",
+          "label": "Confused",
+          "children": [
+            {
+              "id": "scared-discouraged",
+              "label": "Discouraged",
+              "description": "Feeling less hopeful or motivated after a setback or difficult experience."
+            }
+          ],
+          "description": "Feeling unsure how to understand something or make sense of it."
+        },
+        {
+          "id": "scared-helpless",
+          "label": "Helpless",
+          "children": [
+            {
+              "id": "scared-insignificant",
+              "label": "Insignificant",
+              "description": "Feeling overlooked or as though your presence and needs do not matter."
+            }
+          ],
+          "description": "Feeling unable to influence what is happening or change an unwanted situation."
+        },
+        {
+          "id": "scared-submissive",
+          "label": "Submissive",
+          "children": [
+            {
+              "id": "scared-weak",
+              "label": "Weak",
+              "description": "Feeling short of the strength, energy, or resolve you would like."
+            }
+          ],
+          "description": "Feeling inclined to yield to someone else’s wishes or authority."
+        },
+        {
+          "id": "scared-insecure",
+          "label": "Insecure",
+          "children": [
+            {
+              "id": "scared-foolish",
+              "label": "Foolish",
+              "description": "Feeling embarrassed about a choice or worried that it showed poor judgment."
+            }
+          ],
+          "description": "Feeling unsure of your worth, abilities, place, or support from others."
+        },
+        {
+          "id": "scared-anxious",
+          "label": "Anxious",
+          "children": [
+            {
+              "id": "scared-embarrassed",
+              "label": "Embarrassed",
+              "description": "Feeling uncomfortable or exposed because of how you think others see you."
+            }
+          ],
+          "description": "Feeling uneasy, tense, or worried about what might happen next."
+        }
+      ],
+      "description": "Feeling frightened or uneasy about a possible danger or threat."
+    },
+    {
+      "id": "joyful",
+      "label": "Joyful",
+      "color": "#D8B650",
+      "children": [
+        {
+          "id": "joyful-excited",
+          "label": "Excited",
+          "children": [
+            {
+              "id": "joyful-daring",
+              "label": "Daring",
+              "description": "Feeling willing to take a risk or try something unfamiliar."
+            }
+          ],
+          "description": "Feeling eager and energized by something happening or about to happen."
+        },
+        {
+          "id": "joyful-sexy",
+          "label": "Sexy",
+          "children": [
+            {
+              "id": "joyful-fascinating",
+              "label": "Fascinating",
+              "description": "Feeling interesting, engaging, or able to hold someone else’s attention."
+            }
+          ],
+          "description": "Feeling attractive, desirable, or connected to your own sensuality."
+        },
+        {
+          "id": "joyful-energetic",
+          "label": "Energetic",
+          "children": [
+            {
+              "id": "joyful-stimulating",
+              "label": "Stimulating",
+              "description": "Engaging or exciting in a way that stirs interest, thought, or energy."
+            }
+          ],
+          "description": "Feeling lively and ready to move, participate, or take something on."
+        },
+        {
+          "id": "joyful-playful",
+          "label": "Playful",
+          "children": [
+            {
+              "id": "joyful-amused",
+              "label": "Amused",
+              "description": "Feeling entertained or finding humor and lightness in something."
+            }
+          ],
+          "description": "Feeling lighthearted and open to fun, humor, or spontaneous expression."
+        },
+        {
+          "id": "joyful-creative",
+          "label": "Creative",
+          "children": [
+            {
+              "id": "joyful-extravagant",
+              "label": "Extravagant",
+              "description": "Feeling expressive or indulgent, with a wish to go beyond ordinary limits."
+            }
+          ],
+          "description": "Feeling drawn to imagine possibilities or make something in your own way."
+        },
+        {
+          "id": "joyful-aware",
+          "label": "Aware",
+          "children": [
+            {
+              "id": "joyful-delightful",
+              "label": "Delightful",
+              "description": "Feeling pleasantly lighthearted, enjoyable, or able to bring happiness to others."
+            }
+          ],
+          "description": "Feeling attentive to your experience, surroundings, or what is happening within you."
+        }
+      ],
+      "description": "Feeling a strong sense of happiness, pleasure, or delight in the moment."
+    },
+    {
+      "id": "powerful",
+      "label": "Powerful",
+      "color": "#7EA58C",
+      "children": [
+        {
+          "id": "powerful-proud",
+          "label": "Proud",
+          "children": [
+            {
+              "id": "powerful-cheerful",
+              "label": "Cheerful",
+              "description": "Feeling bright, upbeat, and ready to meet the moment with good spirits."
+            }
+          ],
+          "description": "Feeling pleased with an effort, achievement, quality, or connection that matters."
+        },
+        {
+          "id": "powerful-respected",
+          "label": "Respected",
+          "children": [
+            {
+              "id": "powerful-satisfied",
+              "label": "Satisfied",
+              "description": "Feeling that a need, wish, or expectation has been met."
+            }
+          ],
+          "description": "Feeling that others recognize your dignity, perspective, or abilities."
+        },
+        {
+          "id": "powerful-appreciated",
+          "label": "Appreciated",
+          "children": [
+            {
+              "id": "powerful-valuable",
+              "label": "Valuable",
+              "description": "Feeling that your presence, qualities, or contributions have value."
+            }
+          ],
+          "description": "Feeling that someone notices and values your presence or contribution."
+        },
+        {
+          "id": "powerful-hopeful",
+          "label": "Hopeful",
+          "children": [
+            {
+              "id": "powerful-worthwhile",
+              "label": "Worthwhile",
+              "description": "Feeling that you or your efforts have meaning and value."
+            }
+          ],
+          "description": "Feeling that something good or meaningful may still be possible."
+        },
+        {
+          "id": "powerful-important",
+          "label": "Important",
+          "children": [
+            {
+              "id": "powerful-intelligent",
+              "label": "Intelligent",
+              "description": "Feeling capable of understanding, learning, or making sense of something."
+            }
+          ],
+          "description": "Feeling that you matter and have a meaningful place in others’ lives."
+        },
+        {
+          "id": "powerful-faithful",
+          "label": "Faithful",
+          "children": [
+            {
+              "id": "powerful-confident",
+              "label": "Confident",
+              "description": "Feeling able to trust yourself or handle what is ahead."
+            }
+          ],
+          "description": "Feeling steady in your loyalty, trust, or commitment to someone or something."
+        }
+      ],
+      "description": "Feeling able to act, influence events, or make a meaningful difference."
+    },
+    {
+      "id": "peaceful",
+      "label": "Peaceful",
+      "color": "#6CA89E",
+      "children": [
+        {
+          "id": "peaceful-nurturing",
+          "label": "Nurturing",
+          "children": [
+            {
+              "id": "peaceful-thankful",
+              "label": "Thankful",
+              "description": "Feeling gratitude for something received, experienced, or made possible."
+            }
+          ],
+          "description": "Feeling drawn to care for, support, or help someone grow."
+        },
+        {
+          "id": "peaceful-trusting",
+          "label": "Trusting",
+          "children": [
+            {
+              "id": "peaceful-sentimental",
+              "label": "Sentimental",
+              "description": "Feeling tender emotion around memories, relationships, or things with personal meaning."
+            }
+          ],
+          "description": "Feeling able to rely on someone or something with less guardedness."
+        },
+        {
+          "id": "peaceful-loving",
+          "label": "Loving",
+          "children": [
+            {
+              "id": "peaceful-serene",
+              "label": "Serene",
+              "description": "Feeling deeply calm and relatively undisturbed by what is around you."
+            }
+          ],
+          "description": "Feeling warmth, affection, and care toward someone or something."
+        },
+        {
+          "id": "peaceful-intimate",
+          "label": "Intimate",
+          "children": [
+            {
+              "id": "peaceful-responsive",
+              "label": "Responsive",
+              "description": "Feeling receptive and ready to engage with someone or something."
+            }
+          ],
+          "description": "Feeling a close, personal connection in which you can be open."
+        },
+        {
+          "id": "peaceful-thoughtful",
+          "label": "Thoughtful",
+          "children": [
+            {
+              "id": "peaceful-relaxed",
+              "label": "Relaxed",
+              "description": "Feeling less tense and able to settle into the moment."
+            }
+          ],
+          "description": "Feeling reflective or attentive to the meaning of something or someone’s needs."
+        },
+        {
+          "id": "peaceful-content",
+          "label": "Content",
+          "children": [
+            {
+              "id": "peaceful-pensive",
+              "label": "Pensive",
+              "description": "Feeling quietly absorbed in reflection, perhaps with a touch of sadness."
+            }
+          ],
+          "description": "Feeling comfortable with what you have or where you are."
+        }
+      ],
+      "description": "Feeling a sense of quiet, ease, or freedom from inner conflict."
+    },
+    {
+      "id": "sad",
+      "label": "Sad",
+      "color": "#A48DB9",
+      "children": [
+        {
+          "id": "sad-sleepy",
+          "label": "Sleepy",
+          "children": [
+            {
+              "id": "sad-apathetic",
+              "label": "Apathetic",
+              "description": "Feeling little interest, concern, or motivation toward things around you."
+            }
+          ],
+          "description": "Feeling drowsy and drawn toward rest or falling asleep."
+        },
+        {
+          "id": "sad-bored",
+          "label": "Bored",
+          "children": [
+            {
+              "id": "sad-inferior",
+              "label": "Inferior",
+              "description": "Feeling less capable, valued, or worthy than the people around you."
+            }
+          ],
+          "description": "Feeling under-engaged and wishing for something more interesting or absorbing."
+        },
+        {
+          "id": "sad-lonely",
+          "label": "Lonely",
+          "children": [
+            {
+              "id": "sad-inadequate",
+              "label": "Inadequate",
+              "description": "Feeling that your abilities or resources fall short of what seems needed."
+            }
+          ],
+          "description": "Feeling the absence of the closeness or companionship you want."
+        },
+        {
+          "id": "sad-depressed",
+          "label": "Depressed",
+          "children": [
+            {
+              "id": "sad-miserable",
+              "label": "Miserable",
+              "description": "Feeling deeply unhappy or weighed down by a painful experience."
+            }
+          ],
+          "description": "Feeling deeply low or discouraged, with little pleasure or hope in the moment."
+        },
+        {
+          "id": "sad-ashamed",
+          "label": "Ashamed",
+          "children": [
+            {
+              "id": "sad-stupid",
+              "label": "Stupid",
+              "description": "Feeling unable to think clearly or doubting your understanding or judgment."
+            }
+          ],
+          "description": "Feeling painfully exposed or negatively judged in your own or others’ eyes."
+        },
+        {
+          "id": "sad-guilty",
+          "label": "Guilty",
+          "children": [
+            {
+              "id": "sad-bashful",
+              "label": "Bashful",
+              "description": "Feeling shy or self-conscious when attention is directed toward you."
+            }
+          ],
+          "description": "Feeling uneasy or remorseful about something you did or left undone."
+        }
+      ],
+      "description": "Feeling sorrow, loss, or a lowering of your usual spirits."
+    }
+  ]
+}
