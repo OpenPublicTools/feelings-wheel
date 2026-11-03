@@ -1,6 +1,6 @@
 # Feeling Wheel
 
-An interactive version of Gloria Willcox's Feeling Wheel. Scroll or drag to rotate, select a feeling to read its definition, and switch between light and dark themes.
+An interactive version of Gloria Willcox's Feeling Wheel. Scroll anywhere on the page or drag the wheel to rotate, select a feeling to read its definition, and switch between light and dark themes.
 
 The wheel starts unselected. The first arrow or WASD key selects Peaceful. Subsequent presses navigate the selection: Up/W and Down/S choose the previous or next feeling on the same ring and rotate it into view. Left/A moves inward to its parent; Right/D moves outward to a related feeling, remembering the branch you last used. The definition follows the selection, and highlighting includes only that feeling and its inner ancestors. Tab moves between the page controls, skipping the feelings. Escape clears the selection; the next direction key starts again at Peaceful.
 

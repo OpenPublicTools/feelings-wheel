@@ -55,8 +55,9 @@ export function drawWheel(container,model,onSelect=()=>{}) {
     }
     if(frame===null)frame=requestAnimationFrame(rotate);
   };
-  svg.addEventListener('wheel',event=>{
-    if(event.ctrlKey)return;
+  // Empty space around the wheel is part of the scroll interaction area.
+  document.addEventListener('wheel',event=>{
+    if(event.defaultPrevented||event.ctrlKey)return;
     const delta=Math.abs(event.deltaY)>=Math.abs(event.deltaX)?event.deltaY:event.deltaX;
     if(!delta)return;
     event.preventDefault();
